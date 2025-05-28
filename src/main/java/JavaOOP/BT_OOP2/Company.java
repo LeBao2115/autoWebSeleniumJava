@@ -13,7 +13,7 @@ public class Company {
         System.out.println(nhanVienA.getGender());
         System.out.println(nhanVienA.toString());
 
-        Person nhanVienB = new Person("Josh",25,Gender.MALE,"Quan Binh Tan","035184");
+        Person nhanVienB = new Person("Josh",25,Gender.FEMALE,"Quan Binh Tan","035184");
         System.out.println(nhanVienB.toString());
 
         listNhanVien = new ArrayList<>();
